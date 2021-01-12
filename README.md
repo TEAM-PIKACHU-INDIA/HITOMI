@@ -9,8 +9,7 @@ If you want to create your own bot, you can basically follow the steps given [he
 
 OR
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Team_pikachu_india/hitomi.git)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-PIKACHU-INDIA/HITOMI)
 ## Credits
 • [SkittBot](https://github.com/skittles9823/SkittBot) for stickers module.
 • [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot) for evaluator and more.
