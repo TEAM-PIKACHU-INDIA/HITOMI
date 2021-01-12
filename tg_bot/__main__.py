@@ -19,11 +19,16 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}
-I am a group management bot.	
-Build by weebs for weebs, I specialize in managing groups.	
-You can find my list of available commands with :	
-👉 /help.
+Heya! {} My name is {}!
+
+I am a sassy and efficient group management bot developed by [NOOB](Https://t.me//sanskarixd).
+
+🍁For help with bot commands and hit /help ⚡️
+
+🍁If you are lazy you can add me to your group for taking care of it ⚡️
+
+🍁 I am better than other group management bots⚡️
+
 """
 
 BOT_IMAGE = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
@@ -32,21 +37,21 @@ HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @KoraSupport
+If you have any questions on how to use me, head over to @NOOB_BOT_UPDATES
 
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+ -•/start: start the bot
+ -•/help: PM's you this message.
+ -•/help <module name>: PM's you info about that module.
+ -☆/settings:
+   -°in PM: will send you your settings for all supported modules.
+   -°in a group: will redirect you to pm, with all that chat's settings.
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """{0} doesn't currently need any donations.
+DONATE_STRING = """{0} no need need ti donate.
 However you can donate to the creator of the original source code which {0} \
 is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
 
@@ -149,11 +154,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                      text="👑 SUMMON ME",
+                                      text="ADD ME",
                                       url="t.me/{}?startgroup=true".format(bot.username)),
                              InlineKeyboardButton(
                                       text="⚡️ Get Support",
-                                      url=f"https://t.me/KoraSupport")
+                                      url=f"https://t.me/NOOB_BOT_UPDATES")
                         ]
                     ]
                 ),
